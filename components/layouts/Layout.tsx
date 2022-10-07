@@ -19,7 +19,7 @@ export const Layout: FC<Props> = ({ children, title }) => {
 				<meta name="description" content={`Learn to create a Pokedex with NetxtJS ${title}`} />
 				<meta name="tags" content={`${title}, XXXX, pokedex, nextjs`} />
 				<meta property="og:title" content={`Information about ${title}`} />
-				<meta property="og:description" content={`Here you can find all abour ${title}`} />
+				<meta property="og:description" content={`Here you can find all about ${title}`} />
 				<meta property="og:image" content={`${origin}/img/banner.png`} />
 			</Head>
 
